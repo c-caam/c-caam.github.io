@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add product</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/new-product.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/credits.css">
+</head>
+<body>
+    <main>
+        <header class="menu">
+            <div class="menu-container">
+                <a href="/screens/index.html">
+                    <img src="/img/Logo.svg" alt="logo" class="menu-logo">
+                </a>
+                <input type="search" class="search-bar" placeholder="Search item...">
+                <button type="submit" class="menu-btn"><a href="/screens/admin.html" class="admin-menu-link">Admin Menu</a></button>
+            </div>
+        </header>
+    </main>
+
+    <section class="new-product">
+        <legend class="new-product-legend">Add new product</legend>
+        <form class="new-product-form" data-form>
+            <input type="url" class="new-product-url" placeholder="Image URL" data-url required><br>
+            <input type="text" class="new-product-category" placeholder="Category" data-category required><br>
+            <input type="text" class="new-product-name" placeholder="Product name" data-name maxlength="20" required><br>
+            <input type="number" class="new-product-price" placeholder="Product price" data-product-price required><br>
+            <input type="text" class="new-product-description" placeholder="Product description" data-product-description maxlength="120" required><br>
+            <button type="submit" class="new-product-btn">Add product</button>
+        </form>
+    </section>
+
+    <section class="contact">
+        <img src="/img/Logo.svg" alt="logo" class="contact-logo">
+        <div class="contact-list">
+            <p class="contact-credits">About us</p>
+            <p class="contact-credits">Privacy Policy</p>
+            <p class="contact-credits">Loyalty program</p>
+            <p class="contact-credits">Our Stores</p>
+            <p class="contact-credits">I want to resell</p>
+            <p class="contact-credits">Advertise here</p>
+        </div>
+        <form class="contact-form">
+            <legend class="contact-legend">Talk with us here</legend>
+            <input type="text" class="contact-name" placeholder="Name"required maxlength="40">
+            <input type="text" class="contact-message" placeholder="Write your message here."required maxlength="120">
+            <button type="submit" class="contact-btn">Send message</button>
+        </form>
+    </section>
+
+    <footer class="credits">
+        <h4>Developed by Camila González, 2023</h4>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,55 @@
+.products-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-title {
+    font-size: 1.5rem;
+    padding: 3rem 4rem 0 4rem;
+}
+
+.products-btn {
+    padding: 3rem 4rem 0 4rem;
+    margin: 0 1rem;
+    border: none;
+    background-color: white;
+    color: #2A7AE4;
+    font-weight: 500;
+}
+
+.products-btn:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.all-products-link {
+    color: #2A7AE4;
+}
+
+/*PHONE*/
+
+@media screen and (max-width: 767px) {
+    .products-title {
+        font-size: 1.3rem;
+        padding: 2rem 2rem 0 2rem;
+    }
+    
+    .products-btn {
+        padding: 2rem 2rem 0 2rem;
+        margin: 0 1rem;
+        font-weight: bold;
+    }
+}
+
+/*TABLET*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .products-title {
+        font-size: 1.8rem;
+        padding: 2rem 2rem 0 2rem;
+    }
+
+    .products-btn {
+        padding: 2rem 2rem 0 2rem;
+    }
+}

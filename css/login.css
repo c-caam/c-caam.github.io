@@ -1,0 +1,70 @@
+.login {
+    padding: 2rem;
+    background-color: #F5F5F5;
+}
+
+.admin-link {
+    color: white;
+}
+
+.login-legend {
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.login-email, .login-password {
+    padding: 1rem;
+    width: 25rem;
+    font-size: 0.9rem;
+    border: none;
+    box-shadow: 0.1rem 0.1rem #c0b9b9;
+}
+
+.login-btn {
+    font-size: 0.9rem;
+    padding: 1rem;
+    width: 26.8rem;
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    transition: 1s;
+}
+
+.login-btn:hover {
+    cursor: pointer;
+    background-color: #5e9cee;
+    border: 1px solid #5e9cee;
+}
+
+/*PHONE*/
+
+@media screen and (max-width: 767px) {
+    .login-form {
+        padding: 2rem;
+        margin-bottom: 5rem;
+    }
+    
+    .login-email, .login-password {
+        width: 20rem;
+    }
+
+    .login-btn {
+        width: 22rem;
+    }
+}
+
+/*TABLET*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}

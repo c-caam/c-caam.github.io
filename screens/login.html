@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Log in</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/contact.css">
+    <link rel="stylesheet" href="/css/credits.css">
+</head>
+<body>
+    <main>
+        <header class="menu">
+            <div class="menu-container">
+                <a href="/screens/index.html">
+                    <img src="/img/Logo.svg" alt="logo" class="menu-logo">
+                </a>
+                <input type="search" class="search-bar" placeholder="Search item...">
+            </div>
+        </header>
+    </main> 
+
+    <section class="login">
+        <legend class="login-legend">Log in</legend>
+        <form class="login-form">
+            <input type="email" class="login-email" id="login-email" placeholder="Write your email." required><br>
+            <input type="password" class="login-password" id="login-password" placeholder="Write your password."required><br>
+            <button type="submit" class="login-btn"><a href="/screens/admin.html" class="admin-link">Log in</a></button>
+        </form>
+    </section>
+
+    <section class="contact">
+        <img src="/img/Logo.svg" alt="logo" class="contact-logo">
+        <div class="contact-list">
+            <p class="contact-credits">About us</p>
+            <p class="contact-credits">Privacy Policy</p>
+            <p class="contact-credits">Loyalty program</p>
+            <p class="contact-credits">Our Stores</p>
+            <p class="contact-credits">I want to resell</p>
+            <p class="contact-credits">Advertise here</p>
+        </div>
+        <form class="contact-form">
+            <legend class="contact-legend">Talk with us here</legend>
+            <input type="text" class="contact-name" placeholder="Name"required maxlength="40">
+            <input type="text" class="contact-message" placeholder="Write your message here."required maxlength="120">
+            <button type="submit" class="contact-btn">Send message</button>
+        </form>
+    </section>
+
+    <footer class="credits">
+        <h4>Developed by Camila González, 2023</h4>
+    </footer>
+
+</body>
+</html>

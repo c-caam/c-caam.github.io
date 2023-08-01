@@ -1,0 +1,129 @@
+.all-products-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.all-products-title {
+    font-size: 1.5rem;
+    padding: 3rem 4rem 0 4rem;
+}
+
+.all-products-btn {
+    font-size: 0.8rem;
+    width: 7rem;
+    height: 3rem;
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    transition: 1s;
+    margin: 0 1rem;
+}
+
+.all-products-btn:hover {
+    cursor: pointer;
+    background-color: #5e9cee;
+    border: 1px solid #5e9cee;
+}
+
+.all-products-link {
+    color: white;
+}
+
+.all-products-box {
+    display: flex;
+    margin: 1rem 0 5rem 0;
+}
+
+.all-products-list {
+    display: flex;
+    gap: 1.4rem;
+    padding: 2rem 4rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.all-products-item {
+    padding: 0.4rem;
+}
+
+.item-name, .item-description {
+    font-size: 1rem;
+    margin-bottom: 2px;
+}
+
+.item-price {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+
+/*PHONE*/
+
+@media screen and (max-width: 767px) {
+    .all-products-menu {
+        flex-direction: column;
+    }
+    
+    .all-products-title {
+        font-size: 2rem;
+        padding: 1rem 0 0.3rem 2.5rem;
+    }
+    
+    .all-products-btn {
+        height: 2.8rem;
+        margin: 0 0 0 2.5rem;
+    }
+    
+    .all-products-box {
+        margin: 0 0 5rem 0;
+    }
+    
+    .all-products-list {
+        gap: 0.2rem;
+        padding: 1rem;
+    }
+    
+    .all-products-item {
+        padding: 0.3rem;
+    }
+    
+    .item-name, .item-description, .item-price {
+        font-size: 0.8rem;
+    }
+}
+
+/*TABLET*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) { 
+    .all-products-menu {
+        justify-content: space-around;
+    }
+    
+    .all-products-title {
+        font-size: 2rem;
+        padding: 1rem 0 0.3rem 0;
+        width: 70%;
+    }
+    
+    .all-products-btn {
+        height: 2.8rem;
+        margin: 1rem 0 0.3rem 0;
+        width: 10rem;
+    }
+    
+    .all-products-box {
+        margin: 0 0 5rem 0;
+    }
+    
+    .all-products-list {
+        gap: 0.2rem;
+        padding: 1rem;
+    }
+    
+    .all-products-item {
+        padding: 0.3rem;
+    }
+    
+    .item-name, .item-description, .item-price {
+        font-size: 0.8rem;
+    }
+}

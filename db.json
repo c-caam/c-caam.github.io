@@ -1,0 +1,10 @@
+{
+    "product": [
+        {
+            "name": "coffee cup",
+            "imageUrl": "file:///C:/Users/crgon/OneDrive/Escritorio/alura/challenge%2003%20-%20alurageek/img/starwars-01.svg",
+            "price": "$50.00",
+            "id": "1"
+        }
+    ]
+}

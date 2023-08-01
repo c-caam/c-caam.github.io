@@ -1,0 +1,102 @@
+.menu {
+    padding: 2rem;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.search-bar  {
+    padding: 1rem;
+    margin: 0.6rem 20rem;
+    border: 1px solid #2A7AE4;
+    border-radius: 30px;
+    height: 2rem;
+    font-size: 0.8rem;
+    width: 30rem;
+    transition: 1s;
+}
+
+.menu-btn {
+    border: 1px solid #2A7AE4;
+    padding: 0.5rem;
+    background-color: white;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    margin: 0.6rem 0;
+    height: 2rem;
+    width: 8rem;
+    transition: 1s;
+    overflow: hidden;
+    color: #2A7AE4;
+}
+
+.menu-btn:hover {
+    cursor: pointer;
+    background-color: #67a0eb;
+    color: white;
+}
+
+.login-link, .admin-menu-link {
+    color: #2A7AE4;
+}
+
+/*PHONE*/
+
+@media screen and (max-width: 767px) {
+    .menu {
+        padding: 1rem;
+    }
+    
+    .menu-container {
+        width: 100vw;
+        justify-content: space-around;
+    }
+
+    .menu-logo {
+        width: 80%;
+    }
+    
+    .search-bar  {
+        display: none;
+    }
+    
+    .menu-btn {
+        padding: 0;
+        margin: 0.35rem 1.6rem 0 0;
+        height: 2rem;
+        width: 10rem;
+    }
+}
+
+/*TABLET*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .menu {
+        padding: 1rem;
+    }
+    
+    .menu-container {
+        width: 100vw;
+        justify-content: space-around;
+    }
+
+    .menu-logo {
+        width: 80%;
+        margin: 0.3rem 0 0 0;
+    }
+    
+    .search-bar {
+        margin: 0.6rem 1rem;
+        width: 16rem;
+    }
+    
+    .menu-btn {
+        padding: 0;
+        margin: 0.35rem 1rem 0 0;
+        height: 2rem;
+        width: 6rem;
+    }
+}

@@ -1,0 +1,150 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+    background-color: #EAF2FD;
+}
+
+.contact-logo {
+    margin-left: 4rem;
+}
+
+.contact-credits {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    width: 30vw;
+    margin-left: 15rem;
+}
+
+.contact-credits:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50vw;
+}
+
+legend {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.contact-name, .contact-message {
+    font-size: 0.8rem;
+    padding: 0.9rem;
+    width: 33rem;
+    border: none;
+    box-shadow: 0.1rem 0.1rem #c0b9b9;
+}
+
+.contact-btn {
+    font-size: 0.8rem;
+    padding: 0.7rem;
+    width: 11rem;
+    background-color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    color: white;
+    transition: 1s;
+}
+
+.contact-btn:hover {
+    cursor: pointer;
+    background-color: #5e9cee;
+    border: 1px solid #5e9cee;
+}
+
+/*PHONE*/
+
+@media screen and (max-width: 767px) {
+    .contact {
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+    
+    .contact-logo {
+        width: 30%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    
+    .contact-credits {
+        margin: 0.5rem auto 1rem auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contact-form {
+        width: 90vw;
+        gap: 0.5rem;
+        margin-left: 1.3rem;
+        margin-right: 1.3rem;
+    }
+    
+    .contact-legend {
+        margin-top: 1rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .contact-name, .contact-message {
+        width: 21rem;
+        padding: 1rem;
+        margin-top: 0.3rem;
+    }
+    
+    .contact-btn {
+        padding: 0.9rem;
+        width: 10rem;
+        margin-top: 0.3rem;
+    }
+}
+
+/*TABLET*/
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .contact {
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+    
+    .contact-logo {
+        width: 20%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+    
+    .contact-credits {
+        margin: 0.5rem auto 1rem auto;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contact-form {
+        width: 100vw;
+        gap: 0.5rem;
+    }
+    
+    .contact-legend {
+        margin-top: 2rem;
+        margin-left: 9.3rem;
+        font-size: 1.3rem;
+    }
+    
+    .contact-name, .contact-message {
+        width: 31rem;
+        padding: 1rem;
+        margin: 0 auto 0.6rem auto;
+    }
+    
+    .contact-btn {
+        padding: 0.9rem;
+        width: 10rem;
+        margin-top: 0.3rem;
+        margin-left: 9.3rem;
+    }
+}
